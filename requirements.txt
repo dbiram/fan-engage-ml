@@ -1,0 +1,6 @@
+torch==2.3.0
+ultralytics==8.1.0
+pandas==2.2.2
+pyarrow==15.0.0
+opencv-python==4.9.0.80
+minio==7.2.7
