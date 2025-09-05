@@ -22,4 +22,5 @@ ENV YOLO_VERBOSE=1 PYTHONUNBUFFERED=1
 
 COPY train_yolov8.py ./
 COPY prototypes/ ./prototypes/
+COPY pose/ ./pose/
 CMD ["python", "train_yolov8.py", "--help"]
